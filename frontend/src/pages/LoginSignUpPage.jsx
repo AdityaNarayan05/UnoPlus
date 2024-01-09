@@ -10,7 +10,7 @@ export default function LoginSignUp() {
     useEffect(() => {
         let user = JSON.parse(localStorage.getItem('userInfo'));
         if (user) {
-            navigate('/');
+            navigate('/game');
         }
     }, [navigate]);
 

@@ -1,6 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv');
-const authRoutes = require('./routes/authRoutes');
+const userRoutes = require('./routes/userRoutes');
 const gameRoutes = require('./routes/gameRoutes');
 
 dotenv.config();
@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
-app.use('',authRoutes);
-app.use('',gameRoutes);
+app.use('/api/user',userRoutes);
+// app.use('',gameRoutes);
 
 const server = app.listen(5000,console.log("Server started at port 5000"));
