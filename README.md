@@ -63,3 +63,18 @@ UNO+ is an online multiplayer UNO card game developed as a MERN (MongoDB, Expres
    git clone https://github.com/AdityaNarayan05/UnoPlus.git
    cd UnoPlus
    ```
+2. Install dependencies:
+   ```bash 
+   cd frontend
+   npm install
+   cd ../backend
+   npm install
+   ```
+3. Configure environment variables:
+   Create a .env file in the backend directory and set the required variables.
+4. Run the application:
+   ```bash
+   cd backend
+   npm start
+   ```
+5. Open your browser and navigate to http://localhost:3000 to access the application.
