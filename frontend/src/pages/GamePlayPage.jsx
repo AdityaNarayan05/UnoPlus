@@ -159,7 +159,7 @@ export default function GamePlayPage() {
         } catch (error) {
             console.log(error);
             toast({
-                title: "Error Occurred!",
+                title: "Error Occured!",
                 description: "Failed to Access the Game",
                 status: "error",
                 duration: 5000,
@@ -195,7 +195,7 @@ export default function GamePlayPage() {
             } catch (error) {
                 console.log(error);
                 toast({
-                    title: "Error Occurred!",
+                    title: "Error Occured!",
                     description: "Failed to Access the Game",
                     status: "error",
                     duration: 5000,
