@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Routes>
-        {/* <Route path="/" Component={LoginSignUp} /> */}
+        <Route path="/" Component={LoginSignUp} />
         <Route path='/game' Component={GamePage} />
         <Route path="/getGame" Component={GamePlayPage} />
         <Route path="/demo" Component={demo} />
